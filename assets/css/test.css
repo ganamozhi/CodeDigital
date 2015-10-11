@@ -1,0 +1,484 @@
+.pull-left 
+{
+    float: left
+}
+
+.pull-right 
+{
+    float: right
+}
+
+.textleft 
+{
+    float: left;
+    margin-right: 15px;
+}
+
+.textright 
+{
+    float: right;
+    margin-left: 15px;
+}
+
+.textcenter 
+{
+    display: block;
+    margin: 0 auto 15px;
+}
+body
+{
+    height: auto;
+}
+
+a:focus 
+{
+    outline: 0px solid
+}
+
+a:hover 
+{
+    text-decoration: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+}
+
+.section-padding 
+{
+    padding: 80px 0px
+}
+
+p 
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+#header-section
+{
+    background: url(bg.jpg);
+    padding-top: 35px;
+    background-size: cover;
+    background-position: center center
+}
+
+.logo 
+{
+    margin-top: 5px;
+}
+
+.logo h2 a 
+{
+    color: #fff;
+    text-decoration: none
+}
+.logo h2 a:hover
+{
+    color: navy;
+    transition:all 1s ease-in-out;
+}
+
+.navbar-nav>li>a 
+{
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:active,
+.navbar-nav>li>a:focus 
+{
+    background: none
+}
+
+.header-text 
+{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 500px;
+}
+
+.header-text h2 
+{
+    font-size: 50px;
+    color: #fff
+}
+
+.header-text p 
+{
+    color: #fff;
+    margin: 30px 0px;
+}
+
+.header-text a 
+{
+    background: #64A0FB;
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header-text a:hover
+{
+    animation:pulse;
+    animation-duration:1s;
+}
+
+#section-one h2 
+{
+    margin-bottom: 60px;
+}
+
+.section-one-grid 
+{
+    border: 2px solid #F2F2F2;
+    padding: 10px;
+}
+
+.section-one-grid h3 
+{
+    margin-top: 35px;
+}
+
+.section-one-grid i 
+{
+    background: #64A0FB;
+    font-size: 25px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding-top: 17px;
+    position: absolute;
+    top: -17%;
+    left: 44%;
+}
+
+#section-two 
+{
+    background: #E9EBEA;
+}
+
+.about-small h2,
+.experience h2 
+{
+    margin-bottom: 40px;
+}
+
+.about-small p,
+.experience p 
+{
+    margin-bottom: 30px;
+}
+
+.about-small a 
+{
+    border: 2px solid #333333;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight:600;;
+}
+
+.experience a 
+{
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase
+}
+
+#section-three 
+{
+    background: #fff;
+    position: relative
+}
+
+#section-three h2 
+{
+    margin-bottom: 50px;
+}
+
+.comment-section 
+{
+    margin-bottom: 30px
+}
+
+.coment-list 
+{
+    margin-top: 20px;
+}
+
+.comment-section p 
+{
+    border: 2px solid #E3E3E3;
+    padding: 20px 40px;
+}
+
+.say 
+{
+    text-align: right;
+    width: 90%;
+    margin-top: 10px
+}
+
+.say h5 
+{
+    margin: 0;
+    color: #000
+}
+
+.say h6 
+{
+    margin: 0;
+    color: #666666
+}
+
+.comment-img 
+{
+    width: 10%;
+    text-align: right
+}
+
+.comment-img img 
+{
+    border-radius: 50%
+}
+
+#section-four 
+{
+    background: #353535;
+    color: #fff
+}
+
+.services h2 
+{
+    margin-bottom: 40px;
+}
+
+.progress-bar 
+{
+    background: #64A0FB;
+    transition: all 2s;
+}
+
+#section-five 
+{
+    background: #fff
+}
+
+.section-five-grid img 
+{
+	transition:all;
+}
+
+.section-five-grid img:hover 
+{
+    animation-name: zoomOut;
+    animation-duration: 2s;
+}
+
+.section-five-grid h2 
+{
+	text-align: center;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 20px
+}
+
+.section-five-grid p 
+{
+    margin: 10px 0px;
+}
+
+.comment-line 
+{
+    color: #999999
+}
+
+.date i,
+.comment i 
+{
+    margin-right: 10px;
+}
+#call 
+{
+    background: #64A0FB;
+    padding: 30px 0px;
+    color: #fff;
+}
+
+.call-text h2 
+{
+    margin: 0
+}
+
+.start-project a 
+{
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 13px;
+    text-transform: uppercase
+}
+
+#footer-section 
+{
+    background: #232323;
+    padding: 30px 0px;
+    color: #fff;
+}
+
+.footer-logo 
+{
+    margin-top: 50px
+}
+
+.footer-address 
+{
+    padding: 10px 30px;
+}
+
+.footer-address h2 
+{
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+.footer-address p 
+{
+    font-size: 14px;
+    font-weight: 300
+}
+
+.footer-address h3 
+{
+    font-size: 14px;
+    font-weight: 300
+}
+
+img 
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.fix 
+{
+    overflow: hidden
+}
+
+.active
+{
+	color: #64A0FB !important;
+}
+
+@media only screen and (max-width: 767px) {
+    #header-section {
+        padding-top: 5px;
+    }
+    .navbar-toggle {
+        background-color: #64A0FB;
+    }
+    .header-text {
+        padding-right: 0px
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .header-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .header-text a,
+    .experience a,
+    .start-project a {
+        padding: 8px 10px;
+        margin-top: 0px;
+    }
+    .experience h2 {
+        margin-bottom: 10px;
+        margin-top: 10px
+    }
+    .comment-section p::before {
+        display: none
+    }
+    .say {
+        width: 85%
+    }
+    .comment-img {
+        width: 15%
+    }
+    .comment-section p {
+        padding: 10px;
+    }
+    .comment-section {
+        margin-bottom: 60px;
+    }
+    .services h2 {
+        margin-top: 20px;
+        margin-bottom: 10px
+    }
+    .section-five-grid h2 {
+        font-size: 16px;
+    }
+    .section-five-grid p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .section-five-grid {
+        margin-bottom: 30px;
+    }
+    .call-text h2 {
+        font-size: 22px;
+    }
+    .call-text p {
+        font-size: 12px;
+        margin-top: 5px
+    }
+    .text-right {
+        text-align: left
+    }
+    p {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .footer-address p {
+        font-size: 12px;
+    }
+    .footer-address h2 {
+        font-size: 16px
+    }
+    .footer-address {
+        padding: 10px 15px;
+    }
+}
+
+
+/*About us Starts here*/
+#aboutus-section
+{
+    background-color: #E9EBEA;
+}
